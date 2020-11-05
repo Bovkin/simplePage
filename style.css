@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-image: url(img/background.jpg);
+    background-position: center;
+    height: 150px;
+}
+.logotipo img{
+    height: 80px;
+    margin: 20px;
+}
+section{
+    margin-top: 35px;
+    width: 70%;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+nav{
+    padding-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+nav ul{
+    text-align: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    border-left: 3px solid white;
+}   
+nav ul li a{
+    margin: 35px;
+    text-decoration: none;
+    color: white;    
+}
+nav ul li a:hover{
+    color:#F90;
+}
+aside{
+    margin-top: 35px;
+    width: 30%;
+    background-color: white;
+    position: relative;
+    float: right;
+}
+
+aside ul li{
+    list-style: none;
+    margin: 15px;
+}
+aside ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #428BCA;
+}
+aside ul li:hover{
+    background-color:#E6E6E6;
+}
+
+footer{
+    height: 80px;
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+footer p{
+    padding: 20px;
+}
+footer a{
+    text-decoration: none;
+}
+footer ul li{
+    padding: 5px;
+    display: inline;
+    float: right;
+    border-left: 3px solid white;
+}
+footer ul li a{
+    color: white;
+}
+footer ul li a:hover{
+    color:#FC0;
+}
+section ul{
+    display: inline;
+}
+section ul li{
+    width: 30%;
+    display: inline;
+}
+.clear{
+    clear: both;
+}
+.newTop img{
+    padding: 15px;
+    width: 95%;
+}
+.newTop h1{
+    padding-left: 17px;
+    color: #036;
+}
+.newTop h3, .newTop h4{
+    padding-left: 19px;
+}
+h4{
+    font-size: x-small;
+    font-weight: lighter;
+    color: #999;
+}
+h3{
+    font-size: small;
+    font-weight: lighter;
+}
+.newCenter img{
+    width: 100%;
+}
+.newCenter{
+    margin-top: 5%;
+    margin-left: 1.5%;
+    margin-bottom: 7%;
+    float: left;
+}
+.newCenter h2{
+    color: #036;
+    font-size: large;
+}
